@@ -2,7 +2,7 @@
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
-import { Language, Globe, Clock } from "lucide-react";
+import { Languages, Globe, Clock } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 import { useState } from "react";
 
@@ -38,7 +38,7 @@ const Preferences = () => {
       <div className="space-y-4">
         <div className="space-y-2">
           <div className="flex items-center gap-2">
-            <Language className="h-4 w-4" />
+            <Languages className="h-4 w-4" />
             <Label htmlFor="language">Language</Label>
           </div>
           <Select 
